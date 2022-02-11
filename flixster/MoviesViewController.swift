@@ -11,7 +11,6 @@ import AlamofireImage
 class ViewController: UIViewController, UITableViewDataSource,
                       UITableViewDelegate {
     
-    
     @IBOutlet weak var tableView: UITableView!
     var movies = [[String:Any]]()
     
@@ -67,9 +66,6 @@ class ViewController: UIViewController, UITableViewDataSource,
         
         cell.posterView.af_setImage(withURL: posterUrl!)
         
-        tableView.rowHeight = 150
         return cell
     }
-
 }
-
