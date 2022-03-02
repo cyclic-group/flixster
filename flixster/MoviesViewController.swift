@@ -77,8 +77,7 @@ class ViewController: UIViewController, UITableViewDataSource,
         let cell = sender as! UITableViewCell
         let indexPath = tableView.indexPath(for: cell)!
         let movie = movies[indexPath.row]
-        
-        // pass the selected movie to MovieDetailsViewController
+
         let detailsViewController = segue.destination as! MovieDetailsViewController
         detailsViewController.movie = movie
         
