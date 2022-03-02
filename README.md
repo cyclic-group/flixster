@@ -14,5 +14,5 @@
 
 ### App Walkthrough GIF
 
-<img src="https://submissions.us-east-1.linodeobjects.com/ios_university/WUhtERH8.gif" width=250><br>
+<img src="https://submissions.us-east-1.linodeobjects.com/ios_university/WUhtERH8.gif" width=50><br>
 
